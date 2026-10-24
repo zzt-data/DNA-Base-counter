@@ -1,2 +1,15 @@
-# DNA-Base-counter
-A Python script to analyze DNA sequences.
+# DNA Base Counter 🧬
+
+这是一个基于 Python 编写的生物信息学入门脚本，旨在解决基因测序数据处理中的基础统计问题。
+
+## 🌟 功能特性
+- **碱基统计**：自动过滤非法字符，精准统计 A、T、C、G 的数量。
+- **GC含量计算**：自动计算序列的 GC Content（生物分类和特征分析的重要指标）。
+- **大小写兼容**：自动将输入序列转换为大写，提升代码健壮性。
+
+## 🚀 如何使用
+1. 确保你的电脑已安装 Python 3。
+2. 下载本项目中的 `dna_counter.py` 文件。
+3. 在终端中运行：
+   ```bash
+   python dna_counter.py
